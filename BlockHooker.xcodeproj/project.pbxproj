@@ -44,8 +44,8 @@
 		AED5121F20D9357500C85CAF = {
 			isa = PBXGroup;
 			children = (
-				AED5123320D9358800C85CAF /* ASBlockHooker.cpp */,
 				AED5123220D9358800C85CAF /* ASBlockHooker.hpp */,
+				AED5123320D9358800C85CAF /* ASBlockHooker.cpp */,
 				AED5122A20D9357500C85CAF /* BlockHooker */,
 				AED5122920D9357500C85CAF /* Products */,
 			);

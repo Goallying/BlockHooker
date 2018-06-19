@@ -11,7 +11,6 @@
 
 #include <stdio.h>
 
-//默认对block 有一定程度的了解。
 struct __block_impl {
     void *isa;
     int Flags;
@@ -29,6 +28,5 @@ struct __main_block_impl_0 {
 
 void fake_func_ptr(void);
 void hooker_func_for_block(struct __main_block_impl_0 * ablock);
-
 
 #endif /* ASBlockHooker_hpp */
