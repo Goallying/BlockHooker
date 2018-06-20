@@ -6,10 +6,18 @@
 //  Copyright © 2018年 朱来飞. All rights reserved.
 //
 
+
 #ifndef ASBlockHooker_hpp
 #define ASBlockHooker_hpp
 
+//#ifdef __OBJC__
+//
+//
+//#endif
+
 #include <stdio.h>
+//#include <objc/runtime.h>
+//#include <Foundation/Foundation.h>
 
 struct __block_impl {
     void *isa;
@@ -28,5 +36,6 @@ struct __main_block_impl_0 {
 
 void fake_func_ptr(void);
 void hooker_func_for_block(struct __main_block_impl_0 * ablock);
+//void hooker_func_for_block_2(id block) ;
 
 #endif /* ASBlockHooker_hpp */
